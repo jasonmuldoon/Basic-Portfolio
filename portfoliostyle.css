@@ -8,6 +8,8 @@
      font-size: 18px;
      margin: 0 auto;
      text-align: center;
+     line-height: 90px;
+    
     }
 
     h1  {
@@ -24,12 +26,15 @@
       background: #ebebeb;
       font-size: 18px;
     }
-
+    .wrapper {
+      padding: 20px;
+    }
     Article {
       color: #ebebeb;
+      width: 600px;
+      left: 0;
       background: #777;
     }
-}
   
     Section {
         color: #777;
@@ -40,5 +45,6 @@
     Aside{
         color: #777;
       background: #ebebeb;
-
-    }
+      width: 300px;
+      margin-right: 0%;
+            }
