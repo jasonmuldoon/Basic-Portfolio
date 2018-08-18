@@ -29,22 +29,29 @@
     .wrapper {
       padding: 20px;
     }
+
     Article {
       color: #ebebeb;
-      width: 600px;
-      left: 0;
-      background: #777;
+      width: 95%;
+      float:left;
+      height: 100px;
+      padding: 10px;
+      margin-top: 15px;
+      background-color:  #777;
     }
   
     Section {
         color: #777;
-      background: #ebebeb;
-
+        width: 50%;
+        background-color:  #ebebeb;
+        float: left;
+        padding: 20px;
+        margin-bottom: 10px;
     }
     
     Aside{
         color: #777;
-      background: #ebebeb;
+      background-color:  #ebebeb;
       width: 300px;
       margin-right: 0%;
             }
