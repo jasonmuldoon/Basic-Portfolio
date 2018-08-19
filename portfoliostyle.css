@@ -34,12 +34,19 @@
          color: #ebebeb;
          width: 95%;
          float:left;
-         height: 100px;
+         height: 200px;
          padding: 10px;
          margin-top: 15px;
          background-color:  #777;
        }
      
+       section, aside {
+        box-sizing: border-box;
+        height: 275px;
+        margin: 20px auto 10px auto;
+        padding: 20px 10px 10px 10px;
+    }
+    
        Section {
            color: #777;
            width: 50%;
@@ -47,6 +54,7 @@
            float: left;
            padding: 20px;
            margin-bottom: 10px;
+           
        }
        
        Aside{
@@ -56,3 +64,19 @@
          margin-right: 0%;
          float: right;
                }
+
+      
+       
+       h1, p {
+        box-sizing: border-box;
+        background-color: #ebebeb;
+        color: #777777;
+        height: 33%;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    
+    .clearfix {
+        clear: both;
+        overflow: auto;
+    }
