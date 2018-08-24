@@ -5,9 +5,20 @@ html, body {
   height: 100%;
 }
 
+
+  h1 {color: #29b9b9;
+  background-color: white;
+}
+
+h2 {color: #29b9b9;
+  background-color: white;
+}
+  
+
 html { min-height: 100%; }
 body { font-family: 'Noto Sans', sans-serif; 
-        background-color: #ccc}
+        background-color: #ffffff;
+      }
 
 .navbar {
   background-color:#ffffff;
@@ -59,7 +70,7 @@ body { font-family: 'Noto Sans', sans-serif;
   font-size: 75px;
 }
 
-.welcome-home-row { height: 50%; margin: 150px auto 50px; }
+.welcome-home-row { height: 50%; margin: 25px auto 20px; }
 .welcome-home-row-bottom { height: 20%; margin: 100px auto 10px; }
 
 .form-control {
@@ -80,6 +91,11 @@ body { font-family: 'Noto Sans', sans-serif;
   margin: 0px auto;
 }
 
+hr  {
+  background-color: #29b9b9;
+
+
+}
 footer {
   background-color: #2f2f2f;
   color: #ffffff;
